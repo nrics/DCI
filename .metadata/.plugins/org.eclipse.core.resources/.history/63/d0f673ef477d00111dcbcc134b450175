@@ -1,0 +1,66 @@
+package sideproject;
+
+import org.eclipse.equinox.app.IApplication;
+import org.eclipse.equinox.app.IApplicationContext;
+import org.eclipse.rwt.RWT;
+import org.eclipse.rwt.service.SessionStoreEvent;
+import org.eclipse.rwt.service.SessionStoreListener;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.ui.IViewPart;
+import org.eclipse.ui.IWorkbench;
+import org.eclipse.ui.IWorkbenchListener;
+import org.eclipse.ui.PlatformUI;
+import org.eclipse.ui.application.WorkbenchAdvisor;
+
+import side.gui.FileListView;
+/**
+ * This class controls all aspects of the application's execution
+ * and is contributed through the plugin.xml.
+ */
+public class Application implements IApplication {
+
+//	public Object start(IApplicationContext context) throws Exception {
+////		Display display = PlatformUI.createDisplay();
+////		WorkbenchAdvisor advisor = new ApplicationWorkbenchAdvisor();
+////		return PlatformUI.createAndRunWorkbench(display, advisor);
+//		Display display = PlatformUI.createDisplay();
+//
+//		try {
+//			int returnCode = PlatformUI.createAndRunWorkbench(display, new ApplicationWorkbenchAdvisor());
+//			
+//			if (returnCode == PlatformUI.RETURN_RESTART)
+//				return IApplication.EXIT_RESTART;
+//			else
+//				return IApplication.EXIT_OK;
+//		} finally {
+//			display.dispose();
+//		}
+//	}
+//
+//	/* (non-Javadoc)
+//	 * @see org.eclipse.equinox.app.IApplication#stop()
+//	 */
+//	public void stop() {
+//		if (!PlatformUI.isWorkbenchRunning())
+//			return;
+//		final IWorkbench workbench = PlatformUI.getWorkbench();
+//		final Display display = workbench.getDisplay();
+//		display.syncExec(new Runnable() {
+//			public void run() {
+//				if (!display.isDisposed())
+//					workbench.close();
+//			}
+//		});
+//	}
+	
+	public Object start(IApplicationContext context) throws Exception {
+		
+		Display display = PlatformUI.createDisplay();
+		WorkbenchAdvisor advisor = new ApplicationWorkbenchAdvisor();
+		return PlatformUI.createAndRunWorkbench(display, advisor);
+	}
+
+	public void stop() {
+		// Do nothing
+	}
+}

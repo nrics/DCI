@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Selection Sample Plug-in
+Bundle-SymbolicName: com.mountainminds.eclipse.selectionsample; single
+ ton:=true
+Bundle-Version: 1.1.0
+Bundle-Vendor: Marc R. Hoffmann, Mountainminds GmbH & Co. KG
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+

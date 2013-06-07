@@ -1,0 +1,28 @@
+package side.model;
+
+public class File {
+	
+	String name;
+	String path;
+//	String destinationDirectory;
+
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPath() {
+		return path;
+	}
+	public void setPath(String path) {
+		this.path = path;
+	}
+//	public String getDestinationDirectory() {
+//		return destinationDirectory;
+//	}
+//	public void setDestinationDirectory(String destinationDirectory) {
+//		this.destinationDirectory = destinationDirectory;
+//	}
+
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="79" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="78" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="77" bundleSource="org.eclipse.core.contenttype;version=&quot;3.4.100.v20110423-0524&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="35" bundleSource="javax.servlet;version=&quot;2.5.0.v201103041518&quot;" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="36" class="org.eclipse.core.internal.preferences.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="33" bundleSource="org.eclipse.osgi;version=&quot;3.7.2.v20120110-1415&quot;;roots:=&quot;.&quot;" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="34" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="39" class="org.eclipse.jface.internal.JFaceActivator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="patch.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="37" bundleSource="org.eclipse.equinox.http.servlet;version=&quot;1.1.200.v20110502&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="38" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="patch.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="43" class="org.eclipse.ui.internal.UIPlugin" hasExtensibleAPI="true" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="patch.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="42" bundleSource="org.eclipse.equinox.common;version=&quot;3.6.0.v20110523&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="41" bundleSource="org.eclipse.osgi.services;version=&quot;3.3.0.v20110513&quot;;roots:=&quot;.&quot;" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="40" bundleSource="org.eclipse.rap.jface;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="82" bundleSource="org.eclipse.core.databinding.observable;version=&quot;1.4.0.I20110222-0800&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="83" class="org.eclipse.core.internal.databinding.observable.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="80" class="org.eclipse.osgi.framework.internal.core.SystemBundleActivator" hasExtensibleAPI="true" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="81" class="org.eclipse.equinox.http.servlet.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="86" class="side.Activator" name="SIDE">
+		<library name="lib/org.apache.commons.fileupload_1.2.0.201108091246.jar"/>
+		<library name="lib/org.apache.commons.io_1.3.2.201108091246.jar"/>
+		<library name="lib/org.eclipse.emf.common_2.8.0.v20120127-1049.jar"/>
+		<library name="lib/org.eclipse.emf.ecore_2.8.0.v20120127-1049.jar"/>
+		<library name="lib/org.eclipse.rap.rwt.supplemental.filedialog_1.4.0.201108091246.jar"/>
+		<library name="lib/org.eclipse.rap.rwt.supplemental.fileupload_1.4.0.201108091246.jar"/>
+		<library name="lib/org.eclipse.xsd_2.8.0.v20120130-0821.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="84" hasExtensibleAPI="true" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="patch.jar"/>
+		<library name="."/>
+		<library name="rhino/"/>
+	</bundle>
+	<bundle bundleID="85" bundleSource="org.eclipse.rap.rwt;version=&quot;1.5.2.20130205-2012&quot;;roots:=&quot;.&quot;"/>
+	<bundle bundleID="67" bundleSource="org.eclipse.rap.junit;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="66" bundleSource="org.eclipse.core.commands;version=&quot;3.6.0.I20110111-0800&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="69" localization="fragment" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="68" bundleSource="org.eclipse.equinox.http.jetty;version=&quot;2.0.100.v20110502&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="22" hasExtensibleAPI="true" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="patch.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="23" class="org.eclipse.core.internal.runtime.PlatformActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="24" bundleSource="org.eclipse.core.runtime;version=&quot;3.7.0.v20110110&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="25" class="org.eclipse.core.internal.jobs.JobActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="26" bundleSource="org.eclipse.core.jobs;version=&quot;3.5.101.v20120113-1953&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="27" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="28" bundleSource="org.eclipse.rap.junit.runtime;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="29" class="org.eclipse.equinox.internal.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="3" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="2" bundleSource="org.eclipse.rap.demo;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="1" bundleSource="org.eclipse.equinox.app;version=&quot;1.3.100.v20110321&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="7" bundleSource="org.mortbay.jetty.util;version=&quot;6.1.23.v201012071420&quot;" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="30" bundleSource="org.eclipse.rap.demo.databinding;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="6" bundleSource="org.eclipse.rap.ui.cheatsheets;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%PLUGIN_NAME" provider="%PROVIDER_NAME"/>
+	<bundle bundleID="5" class="org.eclipse.ui.internal.cheatsheets.CheatSheetPlugin" localization="plugin" name="%PLUGIN_NAME" provider="%PROVIDER_NAME"/>
+	<bundle bundleID="32" bundleSource="org.eclipse.rap.jface.databinding;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="4" bundleSource="com.ibm.icu.base;version=&quot;4.2.1.v20100412&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="31" class="org.eclipse.equinox.http.servletbridge.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="70" class="org.eclipse.ui.internal.views.ViewsPlugin" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="patch.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="71" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="9" bundleSource="org.eclipse.help;version=&quot;3.5.100.v20110426&quot;;roots:=&quot;.&quot;" localization="plugin" name="%help_plugin_name" provider="%providerName"/>
+	<bundle bundleID="72" bundleSource="org.eclipse.core.databinding.beans;version=&quot;1.2.100.I20100824-0800&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="8" bundleSource="org.eclipse.core.databinding;version=&quot;1.4.0.I20110111-0800&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="73" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="74" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="junit.jar"/>
+	</bundle>
+	<bundle bundleID="75" class="org.eclipse.equinox.http.jetty.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="76" class="org.eclipse.core.internal.content.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="59" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="58" class="org.eclipse.core.internal.runtime.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="57" class="org.eclipse.help.internal.HelpPlugin" localization="plugin" name="%help_plugin_name" provider="%providerName"/>
+	<bundle bundleID="56" bundleSource="org.eclipse.jdt.junit.runtime;version=&quot;3.4.300.v20110928-1453&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="19" bundleSource="org.eclipse.rap.design.example;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="55" bundleSource="org.junit;version=&quot;3.8.2.v3_8_2_v20100427-1100&quot;;roots:=&quot;junitsrc&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="17" bundleSource="org.eclipse.rap.ui.views;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="18" name="Jetty Utilities" provider="Mort Bay Consulting"/>
+	<bundle bundleID="15" bundleSource="org.eclipse.rap.rwt.theme.classic;version=&quot;1.4.2.20120213-1324&quot;" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="16" bundleSource="org.eclipse.equinox.preferences;version=&quot;3.4.2.v20120111-2020&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="13" bundleSource="org.eclipse.core.databinding.property;version=&quot;1.4.0.I20110222-0800&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="14" name="Servletbridge Extension bundle"/>
+	<bundle bundleID="11" bundleSource="org.eclipse.core.expressions;version=&quot;3.4.300.v20110228&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="12" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="21" bundleSource="org.eclipse.equinox.registry;version=&quot;3.5.101.R37x_v20110810-1611&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="20" class="org.eclipse.core.internal.registry.osgi.Activator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="64" bundleSource="org.eclipse.rap.ui.forms;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="65" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="62" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="63" hasExtensibleAPI="true" localization="plugin" name="%name" provider="%provider-name">
+		<library name="patch.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="60" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="61" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="49" class="org.eclipse.equinox.http.registry.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="48" class="org.eclipse.core.internal.databinding.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="45" hasExtensibleAPI="true" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="patch.jar"/>
+		<library name="."/>
+		<library name="rhino/"/>
+	</bundle>
+	<bundle bundleID="44" bundleSource="org.eclipse.rap.ui;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="47" bundleSource="org.eclipse.rap.ui.workbench;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="46" bundleSource="org.eclipse.rap.rwt;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="10" class="org.eclipse.core.internal.expressions.ExpressionPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="51" name="Jetty Server" provider="Mort Bay Consulting"/>
+	<bundle bundleID="52" bundleSource="org.mortbay.jetty.server;version=&quot;6.1.23.v201012071420&quot;" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="53" class="org.eclipse.ui.internal.WorkbenchPlugin" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="patch.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="54" bundleSource="org.eclipse.rap.rwt.q07;version=&quot;1.4.2.20120213-1324&quot;;roots:=&quot;.&quot;" localization="fragment" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="50" bundleSource="org.eclipse.equinox.http.registry;version=&quot;1.1.100.v20110502&quot;;roots:=&quot;.&quot;" localization="plugin" name="%bundleName" provider="%providerName"/>
+</map>

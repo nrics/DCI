@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.rap.runtime"
+      label="Rich Ajax Platform (RAP) Target Components"
+      version="1.5.0.20120131-1125"
+      provider-name="Eclipse.org - RAP">
+
+   <description url="http://www.eclipse.org/rap/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="Rich Ajax Platform (RAP) 1.5 Runtime Repository" url="http://download.eclipse.org/rt/rap/1.5/runtime/"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.rap.rwt"
+         download-size="3066"
+         install-size="7654"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.source"
+         download-size="3266"
+         install-size="10423"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.osgi"
+         download-size="34"
+         install-size="76"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.osgi.source"
+         download-size="22"
+         install-size="56"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.demo"
+         download-size="686"
+         install-size="1296"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.demo.source"
+         download-size="213"
+         install-size="656"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.demo.databinding"
+         download-size="38"
+         install-size="70"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.demo.databinding.source"
+         download-size="23"
+         install-size="60"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.design.example"
+         download-size="882"
+         install-size="1112"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.design.example.source"
+         download-size="75"
+         install-size="240"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.jface"
+         download-size="990"
+         install-size="1969"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.jface.source"
+         download-size="962"
+         install-size="3344"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.jface.databinding"
+         download-size="270"
+         install-size="541"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.jface.databinding.source"
+         download-size="197"
+         install-size="488"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.junit"
+         download-size="10"
+         install-size="15"
+         version="1.5.0.20120131-1110"/>
+
+   <plugin
+         id="org.eclipse.rap.junit.source"
+         download-size="7"
+         install-size="18"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.junit.runtime"
+         download-size="14"
+         install-size="21"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.junit.runtime.source"
+         download-size="9"
+         install-size="15"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui"
+         download-size="155"
+         install-size="273"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.source"
+         download-size="163"
+         install-size="699"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.forms"
+         download-size="281"
+         install-size="567"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.forms.source"
+         download-size="233"
+         install-size="745"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.views"
+         download-size="76"
+         install-size="141"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.views.source"
+         download-size="71"
+         install-size="208"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.workbench"
+         download-size="3484"
+         install-size="7225"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.workbench.source"
+         download-size="2978"
+         install-size="10300"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.cheatsheets"
+         download-size="310"
+         install-size="631"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.ui.cheatsheets.source"
+         download-size="242"
+         install-size="746"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.testfixture"
+         download-size="72"
+         install-size="143"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.testfixture.source"
+         download-size="42"
+         install-size="103"
+         version="1.5.0.20120131-1110"
+         unpack="false"/>
+
+</feature>

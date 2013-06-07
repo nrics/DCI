@@ -1,0 +1,55 @@
+package side;
+
+import org.eclipse.rwt.RWT;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.graphics.Point;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.ui.application.ActionBarAdvisor;
+import org.eclipse.ui.application.IActionBarConfigurer;
+import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
+import org.eclipse.ui.application.WorkbenchWindowAdvisor;
+
+/**
+ * Configures the initial size and appearance of a workbench window.
+ */
+public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
+
+	private IWorkbenchWindowConfigurer configurer = getWindowConfigurer();
+
+	public ApplicationWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer configurer) {
+		super(configurer);
+	}
+
+	public ActionBarAdvisor createActionBarAdvisor(IActionBarConfigurer configurer) {
+		return new ApplicationActionBarAdvisor(configurer);
+	}
+
+	public void preWindowOpen() {
+//		configurer.setInitialSize(new Point(400, 300));
+		configurer.setShowCoolBar(false);
+		configurer.setShowStatusLine(false);
+		configurer.setTitle("Service Interface Design Evalzzzzzz");
+//		configurer.setShellStyle(SWT.TITLE | SWT.RESIZE);
+		configurer.setShellStyle(SWT.TITLE);
+	}
+	
+    public void postWindowCreate() {
+    	super.postWindowCreate();
+//      configurer.setInitialSize(new Point(400, 300));
+        Shell shell = configurer.getWindow().getShell();
+        shell.setMaximized(true);
+		RWT.getSessionStore().getHttpSession().setMaxInactiveInterval(300);
+		
+//		Display display = shell.getDisplay();
+
+        
+//		  shell.pack();
+//		  shell.open();
+//		  while( !shell.isDisposed() ) {
+//		    if( !display.readAndDispatch() ) {
+//		      display.sleep();
+//		    }
+//		  }
+//		  display.dispose();
+    }
+}

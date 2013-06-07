@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="mailapp"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            thread="main"
+            cardinality="singleton-global"
+            visible="true">
+         <run
+               class="side.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RAP Perspective"
+            class="side.Perspective"
+            id="SideProject.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="true"
+            name="Message"
+            icon="icons/sample2.gif"
+            class="side.View"
+            id="SideProject.view">
+      </view>
+      <view
+            name="Mailboxes"
+            icon="icons/sample3.gif"
+            class="side.NavigationView"
+            id="SideProject.navigationView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Mail"
+            id="side.category">
+      </category>
+      <command
+            name="Open Mailbox"
+            description="Opens a mailbox"
+            categoryId="side.category"
+            id="SideProject.open">
+      </command>
+      <command
+            name="Open Message Dialog"
+            description="Opens a message dialog"
+            categoryId="side.category"
+            id="SideProject.openMessage">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.branding">
+      <branding
+            servletName="mail"
+            themeId="org.eclipse.rap.design.example.business.theme"
+            defaultEntrypointId="SideProject.mailapp"
+            title="RAP Maildemo"
+            id="side.branding">
+         <presentationFactory
+               defaultLayoutId="org.eclipse.rap.design.example.business.layout"
+               name="Business PresentationFactory"
+               id="org.eclipse.rap.design.example.business.factory">
+            <defaultStackPresentation
+                  id="org.eclipse.rap.design.example.stack.view">
+            </defaultStackPresentation>
+         </presentationFactory>
+      </branding>
+   </extension>
+
+</plugin>

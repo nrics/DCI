@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="86" class="side.Activator" localization="OSGI-INF/l10n/bundle" name="SIDE" project="SIDE">
+		<library name="lib/org.apache.commons.fileupload_1.2.0.201108091246.jar"/>
+		<library name="lib/org.apache.commons.io_1.3.2.201108091246.jar"/>
+		<library name="lib/org.eclipse.emf.common_2.8.0.v20120127-1049.jar"/>
+		<library name="lib/org.eclipse.emf.ecore_2.8.0.v20120127-1049.jar"/>
+		<library name="lib/org.eclipse.rap.rwt.supplemental.filedialog_1.4.0.201108091246.jar"/>
+		<library name="lib/org.eclipse.rap.rwt.supplemental.fileupload_1.4.0.201108091246.jar"/>
+		<library name="lib/org.eclipse.xsd_2.8.0.v20120130-0821.jar"/>
+		<library name="."/>
+	</bundle>
+</map>

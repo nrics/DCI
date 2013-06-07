@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.fileupload_1.2.0.201108091246.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.io_1.3.2.201108091246.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.common_2.8.0.v20120127-1049.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore_2.8.0.v20120127-1049.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.change_2.8.0.v20120127-1049.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.xmi_2.8.0.v20120127-1049.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.rap.rwt.supplemental.filedialog_1.4.0.201108091246.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.rap.rwt.supplemental.fileupload_1.4.0.201108091246.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.xsd_2.8.0.v20120130-0821.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

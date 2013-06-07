@@ -1,0 +1,49 @@
+package side;
+
+import java.io.File;
+
+import org.eclipse.rwt.RWT;
+import org.eclipse.rwt.service.SessionStoreEvent;
+import org.eclipse.rwt.service.SessionStoreListener;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.graphics.Point;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.ui.IViewPart;
+import org.eclipse.ui.IWorkbenchPage;
+import org.eclipse.ui.IWorkbenchPartReference;
+import org.eclipse.ui.PlatformUI;
+import org.eclipse.ui.application.ActionBarAdvisor;
+import org.eclipse.ui.application.IActionBarConfigurer;
+import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
+import org.eclipse.ui.application.WorkbenchWindowAdvisor;
+import org.eclipse.ui.internal.WorkbenchPartReference;
+
+import side.gui.FileListView;
+import side.service.impl.FileManager;
+
+/**
+ * Configures the initial size and appearance of a workbench window.
+ */
+public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
+
+	public ApplicationWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer configurer) {
+		super(configurer);
+	}
+
+	public ActionBarAdvisor createActionBarAdvisor(IActionBarConfigurer configurer) {
+		return new ApplicationActionBarAdvisor(configurer);
+	}
+
+	public void preWindowOpen() {
+		IWorkbenchWindowConfigurer configurer = getWindowConfigurer();
+//		configurer.setInitialSize(new Point(400, 300));
+		configurer.setShowCoolBar(false);
+		configurer.setShowStatusLine(false);
+		configurer.setTitle("Service Interface Design Evaluation");
+//		configurer.setShellStyle(SWT.TITLE | SWT.RESIZE);
+		configurer.setShellStyle(SWT.TITLE);
+	}
+	
+
+    
+}

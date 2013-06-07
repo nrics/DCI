@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.mountainminds.eclipse.selectionsample.SelectionView"
+            id="com.mountainminds.eclipse.selectionsample.selectionview"
+            name="Workbench Selection"/>
+   </extension>
+
+</plugin>

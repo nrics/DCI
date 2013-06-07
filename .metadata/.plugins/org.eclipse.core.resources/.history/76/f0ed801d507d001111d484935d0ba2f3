@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="sideApp"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            thread="main"
+            cardinality="singleton-global"
+            visible="true">
+         <run
+               class="side.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RAP Perspective"
+            class="side.Perspective"
+            id="side.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="side.gui.InterMessageView"
+            id="side.gui.InterMessageView"
+            name="Inter Message"
+            restorable="true">
+      </view>
+      <view
+            class="side.gui.MessageView"
+            id="side.gui.MessageView"
+            name="Message"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.branding">
+   </extension>
+
+</plugin>

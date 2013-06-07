@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="generateActivator"/>
+	<item value="false" key="uiPlugin"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="" key="targetName"/>
+	<item value="false" key="osgiProject"/>
+	<section name="dependenciesView">
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="159" key="DIALOG_Y_ORIGIN"/>
+			<item value="469" key="DIALOG_X_ORIGIN"/>
+			<item value="458" key="DIALOG_HEIGHT"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="org.eclipse.pde.ui.PLUGIN_STATUS_DIALOG">
+		<item value="416" key="DIALOG_WIDTH"/>
+		<item value="184" key="DIALOG_Y_ORIGIN"/>
+		<item value="389" key="DIALOG_HEIGHT"/>
+		<item value="600" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="ProductExportWizard">
+		<item value="C:\Users\Enrico\Desktop\dsa.war" key="zipFileName4"/>
+		<item value="C:\Users\Enrico\Documents\export.war" key="zipFileName5"/>
+		<item value="C:\Users\Enrico\Desktop\side.war" key="zipFileName0"/>
+		<item value="C:\Users\Enrico\Desktop\side.war" key="zipFileName1"/>
+		<item value="C:\Users\Enrico\Desktop\sideproject.war" key="zipFileName2"/>
+		<item value="C:\Users\Enrico\Desktop\export.war" key="zipFileName3"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="editBundleContainerWizard">
+		<item value="true" key="groupByCategory"/>
+		<item value="true" key="showVersions"/>
+		<item value="http://download.eclipse.org/rt/rap/1.4/runtime" key="selectedRepository"/>
+	</section>
+	<section name="PluginExportWizard">
+	</section>
+	<section name="PluginImportWizard">
+	</section>
+	<section name="JavaAttributeWizard">
+	</section>
+	<section name="pde-form-editor">
+		<item value="runtime" key="org.eclipse.pde.ui.manifestEditor"/>
+	</section>
+</section>

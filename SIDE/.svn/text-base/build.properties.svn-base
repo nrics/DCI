@@ -1,0 +1,15 @@
+source.. = src/
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               lib/org.apache.commons.fileupload_1.2.0.201108091246.jar,\
+               lib/org.apache.commons.io_1.3.2.201108091246.jar,\
+               lib/org.eclipse.emf.common_2.8.0.v20120127-1049.jar,\
+               lib/org.eclipse.emf.ecore_2.8.0.v20120127-1049.jar,\
+               lib/org.eclipse.emf.ecore.change_2.8.0.v20120127-1049.jar,\
+               lib/org.eclipse.emf.ecore.xmi_2.8.0.v20120127-1049.jar,\
+               lib/org.eclipse.rap.rwt.supplemental.filedialog_1.4.0.201108091246.jar,\
+               lib/org.eclipse.rap.rwt.supplemental.fileupload_1.4.0.201108091246.jar,\
+               lib/org.eclipse.xsd_2.8.0.v20120130-0821.jar,\
+               icons/

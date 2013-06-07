@@ -1,0 +1,4 @@
+#Tue Apr 03 16:44:51 EST 2012
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=Package Selection

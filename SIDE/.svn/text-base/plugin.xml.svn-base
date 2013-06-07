@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RAP Perspective"
+            class="side.Perspective"
+            id="side.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+
+      <view
+            class="side.gui.FileUploadView"
+            id="side.gui.FileUploadView"
+            name="File Upload"
+            restorable="true">
+      </view>
+      <view
+            class="side.gui.InterMessageView"
+            id="side.gui.InterMessageView"
+            name="Inter Message"
+            restorable="true">
+      </view>
+      <view
+            class="side.gui.MessageView"
+            id="side.gui.MessageView"
+            name="Message"
+            restorable="true">
+      </view>
+      <view
+            class="side.gui.FileListView"
+            id="side.gui.FileListView"
+            name="File List"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.entrypoint">
+      <entrypoint
+            class="side.EntryPoint"
+            id="default"
+            parameter="default">
+      </entrypoint>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.branding">
+      <branding
+            defaultEntrypointId="default"
+            id="side.branding"
+            servletName="rap"
+            themeId="org.eclipse.rap.rwt.theme.Default"
+            title="Service Interface Desgin Evaluation">
+      </branding>
+   </extension>
+
+</plugin>

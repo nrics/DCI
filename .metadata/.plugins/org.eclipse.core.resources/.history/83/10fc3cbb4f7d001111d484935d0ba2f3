@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SideProject
+Bundle-SymbolicName: side;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: side.Activator
+Require-Bundle: org.eclipse.rap.ui
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: javax.servlet;version="2.4.0",
+ javax.servlet.http;version="2.4.0"
+Bundle-ClassPath: lib/org.eclipse.emf.common_2.8.0.v20120127-1049.jar,
+ lib/org.eclipse.emf.ecore_2.8.0.v20120127-1049.jar,
+ lib/org.eclipse.emf.ecore.change_2.8.0.v20120127-1049.jar,
+ lib/org.eclipse.emf.ecore.xmi_2.8.0.v20120127-1049.jar,
+ lib/org.eclipse.xsd_2.8.0.v20120130-0821.jar,
+ .
